@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/teamMemberName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Member Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/teamMemberRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Member Role"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/teamMemberEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Member Email"
+        android:textSize="16sp"
+        android:padding="4dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/teamMemberPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Member Phone"
+        android:textSize="16sp"
+        android:padding="4dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/teamMemberLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Member Location"
+        android:textSize="16sp"
+        android:padding="4dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/teamMemberStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Member Status"
+        android:textSize="16sp"
+        android:padding="4dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/teamMemberAvailability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Member Availability"
+        android:textSize="16sp"
+        android:padding="4dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/teamMemberLastActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Member Last Activity"
+        android:textSize="16sp"
+        android:padding="4dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/teamMemberRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Member Rating"
+        android:textSize="16sp"
+        android:padding="4dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/teamMemberFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Member Feedback"
+        android:textSize="16sp"
+        android:padding="4dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/teamMemberActions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Member Actions"
+        android:textSize="16sp"
+        android:padding="4dp"
+        android:gravity="center_vertical" />
+
+</LinearLayout> 

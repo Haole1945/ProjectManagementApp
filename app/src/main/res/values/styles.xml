@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CircleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="Theme.ProjectManagement.Dark.ActionBar" parent="Theme.MaterialComponents.DayNight.DarkActionBar"/>
+    <style name="Widget.MaterialComponents.Chip.Info" parent="Widget.MaterialComponents.Chip.Entry"/>
+</resources> 

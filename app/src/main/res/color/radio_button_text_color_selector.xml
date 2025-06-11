@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Text color when a radio button is checked -->
+    <item android:state_checked="true" android:color="@android:color/white"/>
+    <!-- Text color when a radio button is hovered (e.g., during drag) -->
+    <item android:state_hovered="true" android:color="@android:color/white"/>
+    <!-- Text color when a radio button is not checked -->
+    <item android:state_checked="false" android:color="@color/design_default_color_primary"/>
+</selector> 

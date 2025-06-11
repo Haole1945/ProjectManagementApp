@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State when a radio button is checked -->
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/design_default_color_primary"/>
+            <corners android:radius="20dp"/>
+            <stroke android:width="1dp" android:color="@color/design_default_color_primary"/>
+        </shape>
+    </item>
+    <!-- State when a radio button is hovered (e.g., during drag) -->
+    <item android:state_hovered="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/design_default_color_primary_dark"/>
+            <corners android:radius="20dp"/>
+            <stroke android:width="1dp" android:color="@color/design_default_color_primary_dark"/>
+        </shape>
+    </item>
+    <!-- State when a radio button is not checked -->
+    <item android:state_checked="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+            <corners android:radius="20dp"/>
+            <stroke android:width="1dp" android:color="@color/design_default_color_primary"/>
+        </shape>
+    </item>
+</selector> 
